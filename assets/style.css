@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+.container{
+    width: 600px;
+    height: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: deeppink;
+}
+button{
+    font-size: 26px;
+    float: right;
+    background-color:navajowhite;
+    width: 100px;
+    height: 40px;
+}
+li{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+input{
+    font-size: 30px;
+    width: 300px;
+    height: 30px;
+}
+.ismarid{
+    display: flex;
+    flex-direction: row;
+    margin-top:10px ;
+}
+
+.ismarid > input{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.ismarid > label{
+    
+    margin-right: 10px;
+}
+ul>li>.reset{
+    background-color: aqua;
+    width: 10px;
+}
