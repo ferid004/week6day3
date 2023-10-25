@@ -4,44 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
-<!-- 1.HTML hissənizdə bir formunuz və tablenız olsun.
-    Formda firstname,lastname,age,isMarried inputları olsun.
-    İnput boş olduqda user yaradılmasın.
-    Bütün inputları doldurduqdan sonra user yaradılsın və dataları table-a əlavə olunsun. -->
 
 <body>
     <div class="container">
-        <button type="button"> elave et</button>
-        <ul>
-            <li><label for="">firsname</label>
-                <input type="text">
-            </li>
-            <li> <label for="">last</label>
-                <input type="text">
-            </li>
-            <li> <label for="">age</label>
-                <input type="text">
-            </li>
-            <li> <label for="">ismarid</label>
-                <span class="ismarid">
+        <h1>form</h1>
+        <form id="forma" action="">
+            <label  for="">first name </label>
+            <input  id="firstname" type="text">
+            <label for="">last name </label>
+            <input id="lastname" type="text">
+            <label for="">age </label>
+            <input id="age" type="number">
+            <div>
+                <label for="">marid ?</label>
+                <input  id="isMarried" class="checkbox" type="checkbox">
+            </div>
 
-                    <input type="radio" name="fav_language">
-                    <label for="html">beli</label>
-                    <input type="radio" name="fav_language">
-                    <label for="css">xeyir</label>
-                </span>
-
-            </li>
-            
-        </ul>
+        </form>
+        <button id="btn" type="submit"> submit</button>
+        <table id="table" border="5">
+            <tr>
+                <th>first name </th>
+                <th>last name</th>
+                <th>age</th>
+                <th>marid ?</th>
+            </tr>
+        </table>
     </div>
 
+    <script src="./assets/main.js">
 
-
-    <script src="./assets/main.js"></script>
+    </script>
 </body>
 
 </html>
